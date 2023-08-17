@@ -1,0 +1,55 @@
+/* https://developer.mozilla.org/
+en-US/docs/Learn/Getting_started_with_the_web/CSS_basics */
+html {
+	background-color:#F9F9F9;
+	color: #292727;
+	font-size: 20px; 
+	/* px means "pixels": the base font size is now 10 pixels high */
+	font-family: "Roboto", sans-serif; 
+	/* this should be the rest of the output you got from Google Fonts */
+}
+
+body {
+	width: 700px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: #f44336;
+	font-size: 60px; 
+	font-family: "Handjet", cursive; 
+	text-align: center;
+  }
+
+h2 {
+	font-size: 30px; 
+	text-align: center;
+}
+
+ul {
+	line-height: 2;
+    letter-spacing: 1px;
+	list-style-type: none;
+}
+
+a:link, a:visited {
+	color: #292727;
+}
+  
+a:hover, a:active {
+	background-color: #f69a93;
+	text-decoration: none;
+}
+
+a:active {
+	color: #f44336;
+}
+  
+img {
+	display: block;
+	margin: 0 auto;
+	padding: 20px 0;
+	border-radius: 50%;
+	filter: drop-shadow(3px 3px 3px #D1D1D1);
+}
+
